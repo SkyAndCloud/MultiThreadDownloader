@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/notification_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/download_icon" />
+
+    <ProgressBar
+        android:id="@+id/notification_progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notification_icon"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/notification_icon"
+        android:layout_marginTop="4dp"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/notification_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/notification_icon"
+        android:layout_centerInParent="true"
+        android:text="下载1   0%"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/notification_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/download_btn" />
+
+</RelativeLayout>

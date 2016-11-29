@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ui_start_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:text="Download"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/ui_stop_button"
+        android:layout_marginEnd="28dp" />
+
+    <Button
+        android:id="@+id/ui_stop_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_alignTop="@+id/ui_start_button"
+        android:layout_alignParentEnd="true" />
+
+    <ProgressBar
+        android:id="@+id/ui_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:maxHeight="20dp"
+        android:minHeight="20dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/ui_start_button"
+        android:layout_alignEnd="@+id/ui_stop_button" />
+
+    <TextView
+        android:id="@+id/ui_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载1"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/ui_start_button"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ui_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="下载进度:0%"
+        android:textColor="#000000"
+        android:layout_above="@+id/ui_progressbar"
+        android:layout_toEndOf="@+id/ui_file_name"
+        android:layout_marginStart="38dp" />
+
+</RelativeLayout>

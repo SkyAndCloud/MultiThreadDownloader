@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/yongshan/StudioProjects/downloadDemo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/pause_btn.png",
+        "source": "/home/yongshan/StudioProjects/downloadDemo/app/src/main/res/drawable-ldpi/pause_btn.png"
+    },
+    {
+        "merged": "/home/yongshan/StudioProjects/downloadDemo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/download_btn.png",
+        "source": "/home/yongshan/StudioProjects/downloadDemo/app/src/main/res/drawable-ldpi/download_btn.png"
+    },
+    {
+        "merged": "/home/yongshan/StudioProjects/downloadDemo/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/download_icon.png",
+        "source": "/home/yongshan/StudioProjects/downloadDemo/app/src/main/res/drawable-ldpi/download_icon.png"
+    }
+]

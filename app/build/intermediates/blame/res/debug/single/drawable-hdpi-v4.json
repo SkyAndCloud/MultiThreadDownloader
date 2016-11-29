@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/yongshan/StudioProjects/downloadDemo/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pause_btn.png",
+        "source": "/home/yongshan/StudioProjects/downloadDemo/app/src/main/res/drawable-hdpi/pause_btn.png"
+    },
+    {
+        "merged": "/home/yongshan/StudioProjects/downloadDemo/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/download_btn.png",
+        "source": "/home/yongshan/StudioProjects/downloadDemo/app/src/main/res/drawable-hdpi/download_btn.png"
+    },
+    {
+        "merged": "/home/yongshan/StudioProjects/downloadDemo/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/download_icon.png",
+        "source": "/home/yongshan/StudioProjects/downloadDemo/app/src/main/res/drawable-hdpi/download_icon.png"
+    }
+]
